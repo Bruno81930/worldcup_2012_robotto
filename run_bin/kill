@@ -1,0 +1,15 @@
+#!/bin/sh
+
+goalie="sample_player-r1"
+player="sample_player"
+coach="sample_coach"
+
+killall -TERM ${goalie}
+killall -TERM ${player}
+killall -TERM ${coach}
+
+sleep 2
+
+killall -KILL ${goalie}
+killall -KILL ${player}
+killall -KILL ${coach}

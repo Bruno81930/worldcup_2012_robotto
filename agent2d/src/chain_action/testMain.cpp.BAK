@@ -1,0 +1,21 @@
+#include "actgen_direct_pass_speed-inl.h"
+
+#include <iostream>
+
+using namespace std;
+
+
+int main() {
+  cout << ActGen_DirectPassSpeed::getDirectPassSpeed(0) << endl;
+  cout << ActGen_DirectPassSpeed::getDirectPassSpeed(3) << endl;
+  cout << ActGen_DirectPassSpeed::getDirectPassSpeed(5) << endl;
+  cout << ActGen_DirectPassSpeed::getDirectPassSpeed(6.5) << endl;
+  cout << ActGen_DirectPassSpeed::getDirectPassSpeed(8) << endl;
+  cout << ActGen_DirectPassSpeed::getDirectPassSpeed(12) << endl;
+  cout << ActGen_DirectPassSpeed::getDirectPassSpeed(16) << endl;
+  cout << ActGen_DirectPassSpeed::getDirectPassSpeed(20) << endl;
+  cout << ActGen_DirectPassSpeed::getDirectPassSpeed(25) << endl;
+
+
+  return 1;
+}
